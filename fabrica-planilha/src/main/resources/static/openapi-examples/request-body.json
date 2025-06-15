@@ -1,0 +1,283 @@
+{
+  "workbook": {
+    "nomeWorkbook": "RelatorioCompleto",
+    "abas": [
+      {
+        "nomeAba": "VendasEEstilos",
+        "cabecalho": {
+          "campos": ["id", "produto", "quantidade", "total", "data"],
+          "estilo": {
+            "alinhamento": {
+              "horizontal": "CENTRO",
+              "vertical": "CIMA"
+            },
+            "corTexto": { "R": 255, "G": 255, "B": 255 },
+            "corFundo": { "R": 0, "G": 102, "B": 204 },
+            "negrito": true,
+            "italico": false,
+            "sublinhado": false,
+            "bordaTotal": true,
+            "bordaVertical": false,
+            "bordaHorizontal": false,
+            "bordaEsquerda": false,
+            "bordaDireita": false,
+            "bordaCima": false,
+            "bordaBaixo": false
+          }
+        },
+        "dados": [
+          {
+            "id": 1,
+            "produto": "Caneta Azul",
+            "quantidade": 50,
+            "total": 250.0,
+            "data": "2025-05-01",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "ESQUERDA",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 0, "G": 0, "B": 0 },
+              "corFundo": { "R": 224, "G": 224, "B": 224 },
+              "negrito": false,
+              "italico": false,
+              "sublinhado": false,
+              "bordaEsquerda": true,
+              "bordaDireita": false,
+              "bordaCima": true,
+              "bordaBaixo": false,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 2,
+            "produto": "Caderno",
+            "quantidade": 30,
+            "total": 450.0,
+            "data": "2025-05-02",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "ESQUERDA",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 0, "G": 0, "B": 0 },
+              "corFundo": { "R": 255, "G": 255, "B": 204 },
+              "negrito": false,
+              "italico": true,
+              "sublinhado": false,
+              "bordaEsquerda": false,
+              "bordaDireita": false,
+              "bordaCima": false,
+              "bordaBaixo": false,
+              "bordaVertical": true,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 3,
+            "produto": "Lápis HB",
+            "quantidade": 100,
+            "total": 100.0,
+            "data": "2025-05-03",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "ESQUERDA",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 0, "G": 100, "B": 0 },
+              "corFundo": { "R": 240, "G": 255, "B": 240 },
+              "negrito": false,
+              "italico": false,
+              "sublinhado": true,
+              "bordaEsquerda": false,
+              "bordaDireita": true,
+              "bordaCima": false,
+              "bordaBaixo": false,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 4,
+            "produto": "Borracha",
+            "quantidade": 80,
+            "total": 160.0,
+            "data": "2025-05-04",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "CENTRO",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 128, "G": 0, "B": 128 },
+              "corFundo": { "R": 255, "G": 228, "B": 225 },
+              "negrito": true,
+              "italico": false,
+              "sublinhado": false,
+              "bordaEsquerda": false,
+              "bordaDireita": false,
+              "bordaCima": false,
+              "bordaBaixo": false,
+              "bordaVertical": false,
+              "bordaHorizontal": true,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 5,
+            "produto": "Apontador",
+            "quantidade": 40,
+            "total": 120.0,
+            "data": "2025-05-05",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "DIREITA",
+                "vertical": "BAIXO"
+              },
+              "corTexto": { "R": 0, "G": 0, "B": 128 },
+              "corFundo": { "R": 224, "G": 255, "B": 255 },
+              "negrito": false,
+              "italico": true,
+              "sublinhado": false,
+              "bordaEsquerda": false,
+              "bordaDireita": false,
+              "bordaCima": false,
+              "bordaBaixo": true,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 6,
+            "produto": "Caneta Vermelha",
+            "quantidade": 60,
+            "total": 360.0,
+            "data": "2025-05-06",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "ESQUERDA",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 255, "G": 0, "B": 0 },
+              "corFundo": { "R": 255, "G": 240, "B": 240 },
+              "negrito": true,
+              "italico": false,
+              "sublinhado": false,
+              "bordaEsquerda": true,
+              "bordaDireita": true,
+              "bordaCima": false,
+              "bordaBaixo": false,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 7,
+            "produto": "Marcador",
+            "quantidade": 20,
+            "total": 100.0,
+            "data": "2025-05-07",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "CENTRO",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 255, "G": 165, "B": 0 },
+              "corFundo": { "R": 255, "G": 250, "B": 205 },
+              "negrito": false,
+              "italico": true,
+              "sublinhado": false,
+              "bordaEsquerda": false,
+              "bordaDireita": false,
+              "bordaCima": true,
+              "bordaBaixo": true,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 8,
+            "produto": "Folha Sulfite",
+            "quantidade": 500,
+            "total": 75.0,
+            "data": "2025-05-08",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "CENTRO",
+                "vertical": "CIMA"
+              },
+              "corTexto": { "R": 0, "G": 0, "B": 0 },
+              "corFundo": { "R": 240, "G": 248, "B": 255 },
+              "negrito": false,
+              "italico": false,
+              "sublinhado": true,
+              "bordaEsquerda": false,
+              "bordaDireita": false,
+              "bordaCima": false,
+              "bordaBaixo": false,
+              "bordaVertical": true,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 9,
+            "produto": "Grampeador",
+            "quantidade": 10,
+            "total": 50.0,
+            "data": "2025-05-09",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "DIREITA",
+                "vertical": "BAIXO"
+              },
+              "corTexto": { "R": 128, "G": 0, "B": 0 },
+              "corFundo": { "R": 255, "G": 228, "B": 225 },
+              "negrito": false,
+              "italico": false,
+              "sublinhado": false,
+              "bordaEsquerda": false,
+              "bordaDireita": false,
+              "bordaCima": false,
+              "bordaBaixo": false,
+              "bordaVertical": false,
+              "bordaHorizontal": true,
+              "bordaTotal": false
+            }
+          },
+          {
+            "id": 10,
+            "produto": "Estilete",
+            "quantidade": 15,
+            "total": 45.0,
+            "data": "2025-05-10",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "CENTRO",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 0, "G": 0, "B": 0 },
+              "corFundo": { "R": 245, "G": 245, "B": 245 },
+              "negrito": false,
+              "italico": false,
+              "sublinhado": false,
+              "bordaEsquerda": true,
+              "bordaDireita": false,
+              "bordaCima": false,
+              "bordaBaixo": true,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
