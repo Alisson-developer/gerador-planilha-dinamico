@@ -1,0 +1,58 @@
+{
+  "workbook": {
+    "nomeWorkbook": "RelatorioCompleto",
+    "abas": [
+      {
+        "nomeAba": "VendasEEstilos",
+        "cabecalho": {
+          "campos": ["id", "produto", "quantidade", "total", "data"],
+          "estilo": {
+            "alinhamento": {
+              "horizontal": "CENTRO",
+              "vertical": "CIMA"
+            },
+            "corTexto": { "R": 255, "G": 255, "B": 255 },
+            "corFundo": { "R": 0, "G": 102, "B": 204 },
+            "negrito": true,
+            "italico": false,
+            "sublinhado": false,
+            "bordaTotal": true,
+            "bordaVertical": false,
+            "bordaHorizontal": false,
+            "bordaEsquerda": false,
+            "bordaDireita": false,
+            "bordaCima": false,
+            "bordaBaixo": false
+          }
+        },
+        "dados": [
+          {
+            "id": 1,
+            "produto": "Caneta Azul",
+            "quantidade": 50,
+            "total": 250.0,
+            "data": "2025-05-01",
+            "estilo": {
+              "alinhamento": {
+                "horizontal": "ESQUERDA",
+                "vertical": "CENTRO"
+              },
+              "corTexto": { "R": 0, "G": 0, "B": 0 },
+              "corFundo": { "R": 224, "G": 224, "B": 224 },
+              "negrito": false,
+              "italico": false,
+              "sublinhado": false,
+              "bordaEsquerda": true,
+              "bordaDireita": false,
+              "bordaCima": true,
+              "bordaBaixo": false,
+              "bordaVertical": false,
+              "bordaHorizontal": false,
+              "bordaTotal": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

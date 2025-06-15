@@ -1,0 +1,22 @@
+{
+  "workbook": {
+    "nomeWorkbook": "RelatorioCompleto",
+    "abas": [
+      {
+        "nomeAba": "VendasEEstilos",
+        "cabecalho": {
+          "campos": ["id", "produto de grife", "quantidade", "total", "data"]
+        },
+        "dados": [
+          {
+            "id": 1,
+            "produto de grife": "Bolsa Guggi",
+            "quantidade": 1,
+            "total": 8787.99,
+            "data": "2025-06-10"
+          }
+        ]
+      }
+    ]
+  }
+}

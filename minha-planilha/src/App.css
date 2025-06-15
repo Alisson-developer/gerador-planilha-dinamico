@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.code-mirror {
+  text-align: left !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box;
+}
+
+.space-y-15px > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(15px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(15px * var(--tw-space-y-reverse));
+}
+
+.btn-green {
+  background-color: #10b981;
+  color: #fff;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.15);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-green:hover {
+  background-color: #059669;
+}
+
+.margin-bt-15 {
+  margin-bottom: 15px;
+}
+
+.txt-green {
+  color: #10b981;
+}
+
+.txt-red {
+  color: #ef4444;
+}
+
+.txt-orange {
+  color: #f59e42;
+}
+
+.padding-bt-15 {
+  padding-bottom: 15px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.text-red-500 {
+  color: #ef4444;
+}
+
+.cabecalho-verde {
+  background-color: #10b981;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.15);
+  border: none;
+}
+
